@@ -21,6 +21,8 @@
 		00C3BA711887A8620096708D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C3BA531887A8620096708D /* UIKit.framework */; };
 		00C3BA791887A8620096708D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00C3BA771887A8620096708D /* InfoPlist.strings */; };
 		00C3BA7B1887A8620096708D /* Ex206_mp3playerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C3BA7A1887A8620096708D /* Ex206_mp3playerTests.m */; };
+		00C3BA861887C6F00096708D /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00C3BA841887C6F00096708D /* music1.mp3 */; };
+		00C3BA871887C6F00096708D /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00C3BA851887C6F00096708D /* music2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		00C3BA761887A8620096708D /* Ex206_mp3playerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex206_mp3playerTests-Info.plist"; sourceTree = "<group>"; };
 		00C3BA781887A8620096708D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00C3BA7A1887A8620096708D /* Ex206_mp3playerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex206_mp3playerTests.m; sourceTree = "<group>"; };
+		00C3BA841887C6F00096708D /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		00C3BA851887C6F00096708D /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		00C3BA551887A8620096708D /* Ex206_mp3player */ = {
 			isa = PBXGroup;
 			children = (
+				00C3BA841887C6F00096708D /* music1.mp3 */,
+				00C3BA851887C6F00096708D /* music2.mp3 */,
 				00C3BA5E1887A8620096708D /* AppDelegate.h */,
 				00C3BA5F1887A8620096708D /* AppDelegate.m */,
 				00C3BA611887A8620096708D /* Main.storyboard */,
@@ -230,6 +236,8 @@
 			files = (
 				00C3BA681887A8620096708D /* Images.xcassets in Resources */,
 				00C3BA5A1887A8620096708D /* InfoPlist.strings in Resources */,
+				00C3BA861887C6F00096708D /* music1.mp3 in Resources */,
+				00C3BA871887C6F00096708D /* music2.mp3 in Resources */,
 				00C3BA631887A8620096708D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
